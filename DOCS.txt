@@ -1,0 +1,13 @@
+in problem Warning: file_get_contents(): Unable ==>i must put this lines
+{
+        ob_start();
+        eval(file_get_contents(#);
+        $response = ob_get_contents();
+}
+=============================================================
+tax sale and direct return paypal{
+we must go to profile setting and my setting tools 
+}
+=============================================================
+1-if it's wrong in website encrypt go to ini.php and add openssl
+2-set OPENSSL_CONF=C:\OpenSSL-Win32\bin\cnf\openssl.cnf for error create public certificate 
