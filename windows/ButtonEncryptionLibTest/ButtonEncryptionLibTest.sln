@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonEncryptionLibTest", "ButtonEncryptionLibTest.csproj", "{341F030F-8125-4391-8BBC-2E6ED4FA3F7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE5AC3E9-136D-411F-8BF9-E8A010E0160F} = {EE5AC3E9-136D-411F-8BF9-E8A010E0160F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ButtonEncryptionLib", "..\ButtonEncryptionLib\ButtonEncryptionLib.vcproj", "{EE5AC3E9-136D-411F-8BF9-E8A010E0160F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{341F030F-8125-4391-8BBC-2E6ED4FA3F7A}.Debug.ActiveCfg = Debug|.NET
+		{341F030F-8125-4391-8BBC-2E6ED4FA3F7A}.Debug.Build.0 = Debug|.NET
+		{341F030F-8125-4391-8BBC-2E6ED4FA3F7A}.Release.ActiveCfg = Release|.NET
+		{341F030F-8125-4391-8BBC-2E6ED4FA3F7A}.Release.Build.0 = Release|.NET
+		{EE5AC3E9-136D-411F-8BF9-E8A010E0160F}.Debug.ActiveCfg = Debug|Win32
+		{EE5AC3E9-136D-411F-8BF9-E8A010E0160F}.Debug.Build.0 = Debug|Win32
+		{EE5AC3E9-136D-411F-8BF9-E8A010E0160F}.Release.ActiveCfg = Release|Win32
+		{EE5AC3E9-136D-411F-8BF9-E8A010E0160F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

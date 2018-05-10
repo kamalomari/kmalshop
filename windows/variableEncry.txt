@@ -1,0 +1,17 @@
+  cert_id=WQWRNR2JE5GNG
+    cmd=_xclick
+    business=hamza.komidi123@gmail.com
+    item_name=Samsung gear one
+    item_number=48
+    custom=sc-id-789
+    amount=500.00
+    currency_code=USD
+    tax=41.25
+    shipping=20.00
+    address_override=1
+    address1=123 Main St
+    city=Austin
+    state=TX
+    zip=94085
+    country=USA
+    cancel_return=http://127.0.0.1/php/Ecommerces/My-Kamal/checkout.php?do=cancel&itemid=48

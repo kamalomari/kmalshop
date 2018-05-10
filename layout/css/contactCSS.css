@@ -1,0 +1,81 @@
+body {
+    background-color: #F1F1F1
+}
+
+.alert {
+    margin-bottom: 10px
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #dc143c;
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: 20px auto
+}
+
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative
+}
+
+.contact-form input {
+    padding-left: 32px
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 8px
+}
+
+.contact-form textarea {
+    height: 180px !important
+}
+
+.contact-form input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999;
+}
+
+.contact-form .asterisx {
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.contact-form .send-icon {
+    display: block;
+    position: relative;
+    top: -32px;
+    left: 7px;
+    color: #FFF;
+}
+
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    display: none
+}
+/* Start Config css header */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #dc143c;
+}
+/* End Config css header */
+/* Start Custom Css Bootstrap */
+.btn-success {
+    background-color: #dc143c;
+    border-color: #dc143c;
+}
+/* End Custom Css Bootstrap */
