@@ -1,0 +1,6 @@
+WQWRNR2JE5GNG
+======================
+pkcs12 -export -in my-pubcert.pem -inkey my-prvkey.pem -out mycert.p12   ==>for convert to .p12
+====================
+java ButtonEncryption my-pubcert.pem my-prvkey.pem paypal_cert_pem.pem 1234azer.com  variableEncry.txt OutputFile.txt [Sandbox]
+
